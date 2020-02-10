@@ -49,3 +49,13 @@ Circle.call({}, 1);
 Circle.apply({}, [1, 2, 3]);
 
 const another = new Circle(1);
+
+//value types, also primitives
+//values types examples: number, string, boolean, symbol, undefined, null
+//reference types examples: objects, functions, arrays
+let x = { value: 10 };
+let y = x;
+
+//assigning values to a variable has a different effect than assigning a reference to a variable
+
+x.value = 20;
